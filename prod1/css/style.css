@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.container{
+    width: 97%;
+    margin: 0 auto;
+}
+.conreiner_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards{
+    border: 1px solid gainsboro;
+    border-radius: 30px;
+    margin: 10px;
+}
+.card{
+    margin: 10px;
+}

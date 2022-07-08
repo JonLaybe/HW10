@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+footer{
+    background-color: rgb(42, 79, 108);
+}
+menu nav ul li {
+    display: inline;
+}
+menu{
+    background-color: rgb(231, 222, 222);
+    margin: 5px;
+}
+menu nav li a{
+    text-decoration: none;
+}
+.container{
+    margin: auto;
+}
+.img_logo{
+    width: 100px;
+}
+.container_flex{
+    display: flex;
+}
+.left_asides{
+    display: flex;
+    background-color: rgb(243, 239, 239);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
+}
+.right_aside{
+    background-color: rgb(243, 239, 239);
+    margin: 5px;
+}
+.image_map{
+    width: 350px;
+}
+.block_product{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(124, 120, 120);
+    margin: 5px;
+    padding: 5px;
+}
+.img_product{
+    width: 150px;
+}
+.product_title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    max-height: 18px;
+}
+.product_price{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+.container_munu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 200px;
+    margin: 10px;
+    color: rgb(236, 223, 223);
+}
+.container_munu_top_on{
+    display: flex;
+    justify-content: space-around;
+}
+.menu_text ul li {
+    list-style-type: none;
+}
+.menu_text ul li a{
+    color: rgb(236, 223, 223);
+    text-decoration: none;
+}
+.img_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+}
+.img_icon_fb{
+    background-image: url(image/fb_gray.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.img_icon_insta{
+    background-image: url(image/insta_gray.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.img_icon_youtube{
+    background-image: url(image/youtube_gray.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.container_menu_down_on{
+    text-align: center;
+}
+
+.menu_text ul li a:hover{
+    text-decoration: underline;
+}
+.img_icon_fb:hover{
+    background-image: url(image/fb.png);
+}
+.img_icon_insta:hover{
+    background-image: url(image/insta.png);
+}
+.img_icon_youtube:hover{
+    background-image: url(image/youtube.png);
+}

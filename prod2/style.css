@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+.menu {
+    background-color: rgb(128, 128, 128);
+    width: 200px;
+}
+.card {
+    display: flex;
+}
+.card_img {
+    width: 50px;
+}
+
+.card:hover {
+    background-color: rgb(93, 93, 93);
+}
